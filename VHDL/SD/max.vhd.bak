@@ -14,9 +14,9 @@ begin
   process(A,B)
   begin
     if (A < B) then
-      S <= A;
+      S <= "B";
     else
-      S <= B;
+      S <= "A";
     end if;
   end process;
 end architecture;

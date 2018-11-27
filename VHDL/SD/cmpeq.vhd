@@ -7,16 +7,19 @@ entity cmpeq is
     A,B : in std_logic_vector(7 downto 0);
     S : out std_logic_vector(7 downto 0)
     );
+	
 end entity;
 
 architecture cmpeq_arch of cmpeq is
+signal N : std_logic_vector(7 downto 0);
 begin
+  N <= "00000001";
   process(A,B)
   begin
     if (A < B) then
-      S <= A + "00000001";
+      S <= std_logic_vector(unsigned(A) + unsigned(N));
     elsif (A > B) then
-      S <= A - "00000001";
+      S <= std_logic_vector(unsigned(A) - unsigned(N));
     else
       S <= A;
     end if;

@@ -10,6 +10,8 @@ entity sabs is
 end entity;
 
 architecture sabs_arch of sabs is
+signal tmp : std_logic_vector(8 downto 0);
 begin
-  S <= std_logic_vector(abs(signed(A) - signed(B)));
+  tmp <= std_logic_vector(abs(signed('0' & A) - signed('0' & B)));
+  S <= tmp(7 downto 0);
 end architecture;

@@ -9,7 +9,7 @@ end sabs_tb ;
 
 architecture BENCH of sabs_tb is
   signal A,B : std_logic_vector(7 downto 0);
-  signal S : std_logic_vector(7 downto 0);
+  signal S : signed(7 downto 0);
 begin
   UUT : entity work.sabs port map (A => A, B => B, S => S);
   process
@@ -26,18 +26,6 @@ begin
     assert S = "00011011" report "Error on abs(5-32)=27" severity warning;
     wait for 10 ns;
     
-    A <= "11111111";
-    B <= "00100000";
-    wait for 2 ns;
-    assert S = "11011111" report "Error on abs(255-32)=223" severity warning;
-    wait for 10 ns;
-   
-    A <= "00100000";
-    B <= "11111111";
-    wait for 2 ns;
-    assert S = "11011111" report "Error on abs(32-255)=223" severity warning;
-    wait for 10 ns;
-   
    
     report "End of test. Verify that no error was reported.";
     wait;

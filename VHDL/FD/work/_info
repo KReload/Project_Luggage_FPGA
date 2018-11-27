@@ -1,0 +1,842 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ei-se
+Ecmp
+Z0 w1543322176
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 d/home/ei-se/Documents/VHDL/FD
+Z5 8/home/ei-se/Documents/VHDL/FD/cmp.vhd
+Z6 F/home/ei-se/Documents/VHDL/FD/cmp.vhd
+l0
+L5
+Vl=c54LVUkaNMkeBQ_7d0I0
+!s100 PWVV=2IE:0XbaEa9:2::?3
+Z7 OV;C;10.4b;61
+32
+Z8 !s110 1543334332
+!i10b 1
+Z9 !s108 1543334332.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/FD/cmp.vhd|
+Z11 !s107 /home/ei-se/Documents/VHDL/FD/cmp.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1
+Acmp_arch
+R1
+R2
+R3
+Z14 DEx4 work 3 cmp 0 22 l=c54LVUkaNMkeBQ_7d0I0
+l13
+L12
+VbF::mFfM07cI`1WdSnQLE3
+!s100 3kEm8CHV7R8=YCze7Pd3V0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecmp_tb
+R0
+R1
+R2
+R3
+R4
+Z15 8/home/ei-se/Documents/VHDL/testbench/cmp_tb.vhd
+Z16 F/home/ei-se/Documents/VHDL/testbench/cmp_tb.vhd
+l0
+L6
+Vn9ihS2mng[i5AFmPzIDa<2
+!s100 2Ai0Tl[Yg:j2BGLJcF@AK0
+R7
+32
+Z17 !s110 1543334333
+!i10b 1
+Z18 !s108 1543334333.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/cmp_tb.vhd|
+Z20 !s107 /home/ei-se/Documents/VHDL/testbench/cmp_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R14
+R1
+R2
+R3
+DEx4 work 6 cmp_tb 0 22 n9ihS2mng[i5AFmPzIDa<2
+l12
+L10
+V7nh;;7>nSzjnAC<WhPMV[1
+!s100 nL1WT:jO12CK^PUSV@bEX2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Ecmpeq
+Z21 w1543324522
+R1
+R2
+R3
+R4
+Z22 8/home/ei-se/Documents/VHDL/SD/cmpeq.vhd
+Z23 F/home/ei-se/Documents/VHDL/SD/cmpeq.vhd
+l0
+L5
+VD[>J_?I:?eLicDo>hlNA<1
+!s100 R0JGY6No7:W1fYWoVHYkU2
+R7
+32
+R17
+!i10b 1
+R18
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/SD/cmpeq.vhd|
+Z25 !s107 /home/ei-se/Documents/VHDL/SD/cmpeq.vhd|
+!i113 1
+R12
+R13
+Acmpeq_arch
+R1
+R2
+R3
+Z26 DEx4 work 5 cmpeq 0 22 D[>J_?I:?eLicDo>hlNA<1
+l15
+L13
+VC5nk:FJ2NzeQd2Nn4YNA<1
+!s100 FC;[QB_]gL?@nVQV`h41n3
+R7
+32
+R17
+!i10b 1
+R18
+R24
+R25
+!i113 1
+R12
+R13
+Ecmpeq_tb
+R0
+R1
+R2
+R3
+R4
+Z27 8/home/ei-se/Documents/VHDL/testbench/cmpeq_tb.vhd
+Z28 F/home/ei-se/Documents/VHDL/testbench/cmpeq_tb.vhd
+l0
+L6
+VUVN5OzUAB[[XhVHCJhJYf1
+!s100 ZdT`<?RJ=3^2V7I2CoklK0
+R7
+32
+R17
+!i10b 1
+R18
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/cmpeq_tb.vhd|
+Z30 !s107 /home/ei-se/Documents/VHDL/testbench/cmpeq_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R26
+R1
+R2
+R3
+DEx4 work 8 cmpeq_tb 0 22 UVN5OzUAB[[XhVHCJhJYf1
+l12
+L10
+V2Cg2j8Oojz>jdommzCN;z1
+!s100 WEb3g]l_<E^>:>n_aSceY2
+R7
+32
+R17
+!i10b 1
+R18
+R29
+R30
+!i113 1
+R12
+R13
+Edilatation
+Z31 w1543331188
+R1
+R2
+R3
+R4
+Z32 8/home/ei-se/Documents/VHDL/morpho/dilatation.vhd
+Z33 F/home/ei-se/Documents/VHDL/morpho/dilatation.vhd
+l0
+L5
+VLVeibaIXOkYVN=Oade]`P2
+!s100 jlXd>9Eog3NINkKUh9E^N1
+R7
+32
+R17
+!i10b 1
+R18
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/morpho/dilatation.vhd|
+Z35 !s107 /home/ei-se/Documents/VHDL/morpho/dilatation.vhd|
+!i113 1
+R12
+R13
+Adilatation_arch
+R1
+R2
+R3
+Z36 DEx4 work 10 dilatation 0 22 LVeibaIXOkYVN=Oade]`P2
+l13
+L12
+V[`NEn[S?=71:EOk=jmEcd0
+!s100 3@4gOJQNHEzGo_=jZ[nFn2
+R7
+32
+R17
+!i10b 1
+R18
+R34
+R35
+!i113 1
+R12
+R13
+Edilatation_tb
+Z37 w1543331528
+R1
+R2
+R3
+R4
+Z38 8/home/ei-se/Documents/VHDL/testbench/dilatation_tb.vhd
+Z39 F/home/ei-se/Documents/VHDL/testbench/dilatation_tb.vhd
+l0
+L6
+V[a01iLc7JN_eLQ1HYbCg01
+!s100 ZR1RdMzDXD3449:ZNX28l3
+R7
+32
+R17
+!i10b 1
+R18
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/dilatation_tb.vhd|
+Z41 !s107 /home/ei-se/Documents/VHDL/testbench/dilatation_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R36
+R1
+R2
+R3
+DEx4 work 13 dilatation_tb 0 22 [a01iLc7JN_eLQ1HYbCg01
+l12
+L10
+V?L=0@UQ:a1>57]dinj4dh3
+!s100 3lhY?:zbVCnSbenAZ8Pl21
+R7
+32
+R17
+!i10b 1
+R18
+R40
+R41
+!i113 1
+R12
+R13
+Eerosion
+Z42 w1543331116
+R1
+R2
+R3
+R4
+Z43 8/home/ei-se/Documents/VHDL/morpho/erosion.vhd
+Z44 F/home/ei-se/Documents/VHDL/morpho/erosion.vhd
+l0
+L5
+VC@3dfzjmjFUBbK]fY8MVO1
+!s100 d5<fZO;R7;dzWDac9B[0K2
+R7
+32
+R17
+!i10b 1
+R18
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/morpho/erosion.vhd|
+Z46 !s107 /home/ei-se/Documents/VHDL/morpho/erosion.vhd|
+!i113 1
+R12
+R13
+Aerosion_arch
+R1
+R2
+R3
+Z47 DEx4 work 7 erosion 0 22 C@3dfzjmjFUBbK]fY8MVO1
+l13
+L12
+V>8n89[ojD<9=NWgGE2WfD2
+!s100 ]aGkfb@lU?5m7;:BDgYIH2
+R7
+32
+R17
+!i10b 1
+R18
+R45
+R46
+!i113 1
+R12
+R13
+Eerosion_tb
+Z48 w1543331658
+R1
+R2
+R3
+R4
+Z49 8/home/ei-se/Documents/VHDL/testbench/erosion_tb.vhd
+Z50 F/home/ei-se/Documents/VHDL/testbench/erosion_tb.vhd
+l0
+L6
+VGY=_8Zfb<OHW:5cHUS]iM3
+!s100 kS@XheRiJRXDCdhFcS9NF0
+R7
+32
+R17
+!i10b 1
+R18
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/erosion_tb.vhd|
+Z52 !s107 /home/ei-se/Documents/VHDL/testbench/erosion_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R47
+R1
+R2
+R3
+DEx4 work 10 erosion_tb 0 22 GY=_8Zfb<OHW:5cHUS]iM3
+l12
+L10
+VKO41[]QBDOV7bjD=<izX>2
+!s100 TOgF`TzV74`@>3KSPzBmQ1
+R7
+32
+R17
+!i10b 1
+R18
+R51
+R52
+!i113 1
+R12
+R13
+Eframediff
+Z53 w1543329739
+R1
+R2
+R3
+R4
+Z54 8/home/ei-se/Documents/VHDL/FD/framediff.vhd
+Z55 F/home/ei-se/Documents/VHDL/FD/framediff.vhd
+l0
+L5
+VO6@MMcGaW9imK:n_0TEJf2
+!s100 Aj;jlI96Z5LHJULQUA2Zl0
+R7
+32
+R8
+!i10b 1
+R9
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/FD/framediff.vhd|
+Z57 !s107 /home/ei-se/Documents/VHDL/FD/framediff.vhd|
+!i113 1
+R12
+R13
+Aframediff_arch
+R14
+Z58 DEx4 work 4 sabs 0 22 7XHdn4IC`dJeGf21PknO00
+R1
+R2
+R3
+Z59 DEx4 work 9 framediff 0 22 O6@MMcGaW9imK:n_0TEJf2
+l14
+L12
+V4GgaPhClA4_z5>gK3KmD83
+!s100 i@G]_;4iGV[GLg4_od2Z63
+R7
+32
+R8
+!i10b 1
+R9
+R56
+R57
+!i113 1
+R12
+R13
+Eframediff_tb
+Z60 w1543329874
+R1
+R2
+R3
+R4
+Z61 8/home/ei-se/Documents/VHDL/testbench/framediff_tb.vhd
+Z62 F/home/ei-se/Documents/VHDL/testbench/framediff_tb.vhd
+l0
+L6
+V`lIO;M@>UeQW[zS;U[]Bb1
+!s100 MXF?edCamjTN9:_4ggNhl1
+R7
+32
+R17
+!i10b 1
+R9
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/framediff_tb.vhd|
+Z64 !s107 /home/ei-se/Documents/VHDL/testbench/framediff_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R59
+R1
+R2
+R3
+DEx4 work 12 framediff_tb 0 22 `lIO;M@>UeQW[zS;U[]Bb1
+l12
+L10
+VZSM^2beC:jdJ30[CXfazH3
+!s100 hE]3fXa8SA8CA<>Z]jRBF0
+R7
+32
+R17
+!i10b 1
+R9
+R63
+R64
+!i113 1
+R12
+R13
+Emax
+Z65 w1543323302
+R1
+R2
+R3
+R4
+Z66 8/home/ei-se/Documents/VHDL/SD/max.vhd
+Z67 F/home/ei-se/Documents/VHDL/SD/max.vhd
+l0
+L5
+V>J;]fX[TeXM1Nn6g8329V1
+!s100 QSJ4JCP=iGzY`4`66b[kg3
+R7
+32
+R17
+!i10b 1
+R18
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/SD/max.vhd|
+Z69 !s107 /home/ei-se/Documents/VHDL/SD/max.vhd|
+!i113 1
+R12
+R13
+Amax_arch
+R1
+R2
+R3
+Z70 DEx4 work 3 max 0 22 >J;]fX[TeXM1Nn6g8329V1
+l13
+L12
+VcT_8@`F80MOH2GeCPYE4O3
+!s100 zgkNc1SiT_moMz2G2@3zH2
+R7
+32
+R17
+!i10b 1
+R18
+R68
+R69
+!i113 1
+R12
+R13
+Emax_tb
+R0
+R1
+R2
+R3
+R4
+Z71 8/home/ei-se/Documents/VHDL/testbench/max_tb.vhd
+Z72 F/home/ei-se/Documents/VHDL/testbench/max_tb.vhd
+l0
+L6
+VYOiA;PP0l?WBOJUm@oQi`2
+!s100 50ck:VIQN6V:ZI3DR;B5H1
+R7
+32
+R17
+!i10b 1
+R18
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/max_tb.vhd|
+Z74 !s107 /home/ei-se/Documents/VHDL/testbench/max_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R70
+R1
+R2
+R3
+DEx4 work 6 max_tb 0 22 YOiA;PP0l?WBOJUm@oQi`2
+l12
+L10
+VIdEm9KN87fYZeSjCVWA:;0
+!s100 aemUEWRJ55ikJ[2Y6:@YB1
+R7
+32
+R17
+!i10b 1
+R18
+R73
+R74
+!i113 1
+R12
+R13
+Emin
+Z75 w1543323284
+R1
+R2
+R3
+R4
+Z76 8/home/ei-se/Documents/VHDL/SD/min.vhd
+Z77 F/home/ei-se/Documents/VHDL/SD/min.vhd
+l0
+L5
+V8c2Ij6J=c;km>hnR=bgzg2
+!s100 L=GTCzKgD_j3J;eAg0cPP2
+R7
+32
+R17
+!i10b 1
+R18
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/SD/min.vhd|
+Z79 !s107 /home/ei-se/Documents/VHDL/SD/min.vhd|
+!i113 1
+R12
+R13
+Amin_arch
+R1
+R2
+R3
+Z80 DEx4 work 3 min 0 22 8c2Ij6J=c;km>hnR=bgzg2
+l13
+L12
+V9k9L=E06>S5HULSd^Bi?V0
+!s100 JdhGF^eR]B37SRaJXFREc2
+R7
+32
+R17
+!i10b 1
+R18
+R78
+R79
+!i113 1
+R12
+R13
+Emin_tb
+R0
+R1
+R2
+R3
+R4
+Z81 8/home/ei-se/Documents/VHDL/testbench/min_tb.vhd
+Z82 F/home/ei-se/Documents/VHDL/testbench/min_tb.vhd
+l0
+L6
+Vb^FNL6@CM84TQF0MCJ2fd0
+!s100 `DWJIgI5jbn0mf_;<TCaB0
+R7
+32
+R17
+!i10b 1
+R18
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/min_tb.vhd|
+Z84 !s107 /home/ei-se/Documents/VHDL/testbench/min_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R80
+R1
+R2
+R3
+DEx4 work 6 min_tb 0 22 b^FNL6@CM84TQF0MCJ2fd0
+l12
+L10
+Ve31bCFiKIH@ISE`D=6Xiz1
+!s100 <EXB2;WY8I<2l[Yn`ez1>1
+R7
+32
+R17
+!i10b 1
+R18
+R83
+R84
+!i113 1
+R12
+R13
+Emul
+Z85 w1543334091
+R1
+R2
+R3
+R4
+Z86 8/home/ei-se/Documents/VHDL/SD/mul.vhd
+Z87 F/home/ei-se/Documents/VHDL/SD/mul.vhd
+l0
+L5
+VSJT=l@;^3=2n::=MAmXTT0
+!s100 jUMijPD1RzCnG>GZ:gl2S1
+R7
+32
+R17
+!i10b 1
+R18
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/SD/mul.vhd|
+Z89 !s107 /home/ei-se/Documents/VHDL/SD/mul.vhd|
+!i113 1
+R12
+R13
+Amul_arch
+R1
+R2
+R3
+Z90 DEx4 work 3 mul 0 22 SJT=l@;^3=2n::=MAmXTT0
+l14
+L12
+Z91 VZj@?^T4>;zRE68ZLI<BUN3
+Z92 !s100 6RfD8]mmzEOT;JPQ;Q7@M2
+R7
+32
+R17
+!i10b 1
+R18
+R88
+R89
+!i113 1
+R12
+R13
+Emul_tb
+Z93 w1543334316
+R1
+R2
+R3
+R4
+Z94 8/home/ei-se/Documents/VHDL/testbench/mul_tb.vhd
+Z95 F/home/ei-se/Documents/VHDL/testbench/mul_tb.vhd
+l0
+L6
+VL0ZJ0nLN`D2U^]I]hl`HV1
+!s100 B?HoTK:7SQYhi_VXc]i4>2
+R7
+32
+R17
+!i10b 1
+R18
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/mul_tb.vhd|
+Z97 !s107 /home/ei-se/Documents/VHDL/testbench/mul_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R90
+R1
+R2
+R3
+DEx4 work 6 mul_tb 0 22 L0ZJ0nLN`D2U^]I]hl`HV1
+l13
+L10
+V::iB1T]JSDlO6z=O`c?C`1
+!s100 kgDa64EP`Im7RU@E;@QlQ1
+R7
+32
+R17
+!i10b 1
+R18
+R96
+R97
+!i113 1
+R12
+R13
+Ereg
+R0
+R1
+R2
+R3
+R4
+Z98 8/home/ei-se/Documents/VHDL/SD/reg.vhd
+Z99 F/home/ei-se/Documents/VHDL/SD/reg.vhd
+l0
+L5
+VPZHl?gXP909X[;OQ;ce7O2
+!s100 jDlzozK_c>ld`_VWA`BbY2
+R7
+32
+R17
+!i10b 1
+R18
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/SD/reg.vhd|
+Z101 !s107 /home/ei-se/Documents/VHDL/SD/reg.vhd|
+!i113 1
+R12
+R13
+Areg_arch
+R1
+R2
+R3
+Z102 DEx4 work 3 reg 0 22 PZHl?gXP909X[;OQ;ce7O2
+l14
+L13
+VL0?;ZQlSVCi4nCIER>hNW3
+!s100 DMYkkk6?@gBPQiO??QJHZ2
+R7
+32
+R17
+!i10b 1
+R18
+R100
+R101
+!i113 1
+R12
+R13
+Ereg_tb
+R0
+R1
+R2
+R3
+R4
+Z103 8/home/ei-se/Documents/VHDL/testbench/reg_tb.vhd
+Z104 F/home/ei-se/Documents/VHDL/testbench/reg_tb.vhd
+l0
+L5
+VUA4=kKXRJ_zfzeM4DFA461
+!s100 zJ<e]V[K?CW_hW:Z5K05N2
+R7
+32
+R17
+!i10b 1
+R18
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/reg_tb.vhd|
+Z106 !s107 /home/ei-se/Documents/VHDL/testbench/reg_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R102
+R1
+R2
+R3
+DEx4 work 6 reg_tb 0 22 UA4=kKXRJ_zfzeM4DFA461
+l11
+L8
+V06>][eiSVc<zJHKN^Dch33
+!s100 Je3@M2d3nkz1L2UICeY=b2
+R7
+32
+R17
+!i10b 1
+R18
+R105
+R106
+!i113 1
+R12
+R13
+Esabs
+Z107 w1543328937
+R1
+R2
+R3
+R4
+Z108 8/home/ei-se/Documents/VHDL/FD/sabs.vhd
+Z109 F/home/ei-se/Documents/VHDL/FD/sabs.vhd
+l0
+L5
+V7XHdn4IC`dJeGf21PknO00
+!s100 K=CMNI149Y<eM2A4^XRB:0
+R7
+32
+R8
+!i10b 1
+R9
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/FD/sabs.vhd|
+Z111 !s107 /home/ei-se/Documents/VHDL/FD/sabs.vhd|
+!i113 1
+R12
+R13
+Asabs_arch
+R1
+R2
+R3
+R58
+l14
+L12
+VE>IQf[5QH4RY?@o3_9jDW3
+!s100 NgLU0@PYT8C1ffH2BTnE<1
+R7
+32
+R8
+!i10b 1
+R9
+R110
+R111
+!i113 1
+R12
+R13
+Esabs_tb
+Z112 w1543329090
+R1
+R2
+R3
+R4
+Z113 8/home/ei-se/Documents/VHDL/testbench/sabs_tb.vhd
+Z114 F/home/ei-se/Documents/VHDL/testbench/sabs_tb.vhd
+l0
+L6
+VV61Q:zCEj?C0acM:=Omzg2
+!s100 >fg[zY3<CeOgZ5<IaE>1D2
+R7
+32
+R17
+!i10b 1
+R18
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|/home/ei-se/Documents/VHDL/testbench/sabs_tb.vhd|
+Z116 !s107 /home/ei-se/Documents/VHDL/testbench/sabs_tb.vhd|
+!i113 1
+R12
+R13
+Abench
+R58
+R1
+R2
+R3
+DEx4 work 7 sabs_tb 0 22 V61Q:zCEj?C0acM:=Omzg2
+l13
+L10
+VW>SZWIBD6l;9i4E;^LZa]2
+!s100 k_l>@OMCWQP6SXUVl<X@e1
+R7
+32
+R17
+!i10b 1
+R18
+R115
+R116
+!i113 1
+R12
+R13
