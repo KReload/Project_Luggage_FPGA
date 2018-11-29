@@ -16,11 +16,11 @@ begin
 	N <= "00000010"; --N = 2
 	Vmax <= "11111110"; --Vmax = 254
 	Vmin <= "00000001"; --Vmin = 1
-	CMP0: entity work.cmp(cmp_arch) port map (A => M0, B => I1, S => CMP0out); --CMP0out direction la mémoire dans M1 et SABS0
+	CMP0: entity work.cmpeq(cmp_arch) port map (A => M0, B => I1, S => CMP0out); --CMP0out direction la mémoire dans M1 et SABS0
 	REG0: entity work.reg(reg_arch) port map (DATAIN => I0, RST => rst, CLK => clk, WE => we, DATAOUT => REG0out); --REG0out direction le SABS0
 	SABS0: entity work.sabs(sabs_arch) port map (A => CMP0out, B => REG0out, S => SABS0out); --SABS0out direction le MUL et le REG1
 	MUL: entity work.mul(mul_arch) port map (A => CMP0out, B => REG0out, S => MULout);
-	CMP1: entity work.cmp(cmp_arch) port map (A => V, B => SABS0out, S => CMP1out); 
+	CMP1: entity work.cmpeq(cmp_arch) port map (A => V, B => SABS0out, S => CMP1out); 
 	REG1: entity work.reg(reg_arch) port map (DATAIN => SABS0out, RST => rst, CLK => clk, WE => we, DATAOUT => REG1out);
 	MIN: entity work.min(min_arch) port map (A => CMP1out, B => Vmax, S => MINout);
 	REG2: entity work.reg(reg_arch) port map (DATAIN => REG1out, RST => rst, CLK => clk, WE => we, DATAOUT => REG2out);
