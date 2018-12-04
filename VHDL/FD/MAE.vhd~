@@ -1,0 +1,30 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity MAE is
+  port(
+    clk, rst : in std_logic;
+    irq_mem1, irq_mem2 : out std_logic;
+  );
+end entity;
+
+architecture MAE_A of MAE is
+signal ETAT : integer := 0;   
+begin
+  process(clk,rst)
+  begin
+    if rst = '0' then --reset asynchrone
+      if rising_edge(clk) then
+        case ETAT is
+          when 0 => irq_mem1 <= '1';
+                    irq_mem0 <= '1';
+                    ETAT <= 1;
+          when 1 => irq_mem1 <= '0';
+                    irq_mem0 <= '0';
+                    ETAT <= 0;
+        end case;
+      end if;
+    end if;
+  end process;
+end architecture;
