@@ -1,0 +1,48 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+
+entity maefd_tb is
+end maefd_tb ;
+
+
+architecture BENCH of maefd_tb is
+  signal clk, rst, irq_mem0, irq_mem1 : std_logic;
+  signal addr0_prec, addr1_prec, addr0, addr1 : unsigned(17 downto 0);
+begin
+  UUT : entity work.MAE port map (clk => clk, rst => rst, addr0_prec => addr0_prec, addr1_prec => addr1_prec, irq_mem0 => irq_mem0, irq_mem1 => irq_mem1, addr0 => addr0, addr1 => addr1);
+
+  ClockGenerator: process
+  begin
+    clk <= '0';
+    wait for 1 ns;
+    clk <= '1';
+    wait for 1 ns;
+  end process;
+
+  process
+  begin
+    rst <= '1';
+    rst <= '0';
+    
+    addr0_prec <= "000000000000000000";
+    addr1_prec <= "000000000000000001";
+    wait for 2 ns;
+    assert addr0 = "000000000000000001" report "Error on addr0 = 1" severity warning;
+    assert addr1 = "000000000000000010" report "Error on addr1 = 2" severity warning;
+    wait for 10 ns;
+
+    addr0_prec <= addr0;
+    addr1_prec <= addr1;
+
+    wait for 2 ns;
+    assert addr0 = "000000000000000010" report "Error on addr0 = 2" severity warning;
+    assert addr1 = "000000000000000011" report "Error on addr1 = 3" severity warning;
+    wait for 10 ns;
+
+
+    report "End of test. Verify that no error was reported.";
+    wait;
+  end process;
+end BENCH;

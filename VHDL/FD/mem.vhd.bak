@@ -13,7 +13,7 @@ entity mem is
 end entity;
 
 architecture mem_arch of mem is
-type img is array(N*84480 downto 0) of std_logic_vector(7 downto 0);
+type img is array(N downto 0) of std_logic_vector(8 downto 0);
 
 function init_img return img is
 variable result : img;
@@ -21,7 +21,7 @@ begin
   
   return result;
 	
-end init_img;
+end init_mem;
 signal image: img:=init_img;
 begin
   q0 <= image(To_integer(addr0));

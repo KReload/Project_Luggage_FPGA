@@ -25,8 +25,8 @@ begin
                     addr1 <= addr1_prec + 1;
                     irq_mem0 <= '0';
                     irq_mem1 <= '0';
-          when others => irq_mem0 <= '0';
-                         irq_mem1 <= '0';
+        when others => irq_mem0 <= '0';
+                       irq_mem1 <= '0';
         end case;
       end if;
     end if;
