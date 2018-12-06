@@ -64,4 +64,6 @@ bench_OMP: nrutil.o morpho_OMP.o mouvement_OMP.o
 	gcc ./src/bench_OMP.c ./obj/nrutil.o ./obj/morpho_OMP.o ./obj/mouvement_OMP.o -o ./exe/bench_OMP $(OMP) $(LIB)
 bench_OMPxSSE2: mouvement_OMPxSSE2.o vnrutil.o simdutil.o nrutil.o morpho_OMPxSSE2.o
 	gcc ./src/bench_OMPxSSE2.c ./obj/mouvement_OMPxSSE2.o ./obj/morpho_OMPxSSE2.o ./obj/vnrutil.o ./obj/simdutil.o ./obj/nrutil.o -o ./exe/bench_OMPxSSE2 $(OMP) $(LIB)
+writeCode: nrutil.o morpho.o mouvement.o
+	gcc ./src/writeCode.c ./obj/nrutil.o ./obj/morpho.o ./obj/mouvement.o -o ./src/writeCode $(LIB)
 
