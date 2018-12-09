@@ -8,34 +8,29 @@ end framediff_tb ;
 
 
 architecture BENCH of framediff_tb is
-  signal I0,I1,Et : std_logic_vector(7 downto 0);
+  signal clk,rst,Et : std_logic_vector(7 downto 0);
 begin
-  UUT : entity work.framediff port map (I0 => I0, I1 => I1, Et => Et);
+  UUT : entity work.framediff port map (clk => clk, rst => rst, Et => Et);
+
+  ClockGenerator: process
+  begin
+    clk <= '0';
+    wait for 2 ns;
+    clk <= '1';
+    wait for 2 ns;
+  end process;
+
   process
   begin
-    I0 <= "00100000";
-    I1 <= "00000101";
-    wait for 2 ns;
-    assert Et = "11111111" report "Error on abs(32-5)=27 > 6 => Et = 255" severity warning;
-    wait for 10 ns;
-
-    I0 <= "00000101";
-    I1 <= "00100000";
-    wait for 2 ns;
-    assert Et = "11111111" report "Error on abs(5-32)=27 > 6 => Et = 255" severity warning;
-    wait for 10 ns;
-    
-    I0 <= "11111111";
-    I1 <= "11111110";
-    wait for 2 ns;
-    assert Et = "00000000" report "Error on abs(255-254)=1 < 6 => Et = 0" severity warning;
-    wait for 10 ns;
-    
-    I0 <= "11111111";
-    I1 <= "11111001";
-    wait for 2 ns;
-    assert Et = "11111111" report "Error on abs(255-249)=6 == 6 => Et = 255" severity warning;
-    wait for 10 ns;
+    wait for 3 ns;
+    assert Et = "00000000" report "Error on 0" severity warning;	
+    wait for 4 ns;
+    assert Et = "00000000" report "Error on 1" severity warning;
+    wait for 4 ns;
+    assert Et = "00000000" report "Error on 2" severity warning;
+    wait for 4 ns;
+    assert Et = "00000000" report "Error on 3" severity warning;
+    wait for 4 ns;
 
     report "End of test. Verify that no error was reported.";
     wait;
