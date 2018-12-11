@@ -36,6 +36,12 @@ begin
     addr0_prec <= addr0;
     addr1_prec <= addr1;
 
+    wait for 2 ns;
+    assert addr0 = "000000000000000010" report "Error on addr0 = 2" severity warning;
+    assert addr1 = "000000000000000011" report "Error on addr1 = 3" severity warning;
+    wait for 10 ns;
+
+
     report "End of test. Verify that no error was reported.";
     wait;
   end process;

@@ -19,10 +19,10 @@ begin
   process
   begin
     addr0 <= "000000000000000000";
-    addr1 <= "000000000000000001";
+    addr1 <= "010100011110110001";
     wait for 2 ns;
-    assert q0 = "00000000" report "Error on q0 = 0" severity warning;
-    assert q1 = "11111111" report "Error on q1 = 255" severity warning;
+    assert q0 = "00000001" report "Error on q0 = 0" severity warning;
+    assert q1 = "00000001" report "Error on q1 = 255" severity warning;
     wait for 10 ns;
 
     report "End of test. Verify that no error was reported.";

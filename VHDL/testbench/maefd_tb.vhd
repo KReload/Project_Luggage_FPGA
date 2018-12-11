@@ -11,7 +11,7 @@ architecture BENCH of maefd_tb is
   signal clk, rst, irq_mem0, irq_mem1 : std_logic;
   signal addr0_prec, addr1_prec, addr0, addr1 : unsigned(17 downto 0);
 begin
-  UUT : entity work.MAE port map (clk => clk, rst => rst, addr0_prec => addr0_prec, addr1_prec => addr1_prec, irq_mem0 => irq_mem0, irq_mem1 => irq_mem1, addr0 => addr0, addr1 => addr1);
+  UUT : entity work.MAE port map (clk => clk, rst => rst, addr0_prec => addr0_prec, addr1_prec => addr1_prec, addr0 => addr0, addr1 => addr1);
 
   ClockGenerator: process
   begin

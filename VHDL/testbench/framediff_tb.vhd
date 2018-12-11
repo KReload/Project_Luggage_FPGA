@@ -8,7 +8,8 @@ end framediff_tb ;
 
 
 architecture BENCH of framediff_tb is
-  signal clk,rst,Et : std_logic_vector(7 downto 0);
+  signal Et : std_logic_vector(7 downto 0);
+  signal clk,rst : std_logic;
 begin
   UUT : entity work.framediff port map (clk => clk, rst => rst, Et => Et);
 
@@ -22,6 +23,8 @@ begin
 
   process
   begin
+    rst <= '1';
+    rst <= '0';
     wait for 3 ns;
     assert Et = "00000000" report "Error on 0" severity warning;	
     wait for 4 ns;
