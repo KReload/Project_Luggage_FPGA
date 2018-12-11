@@ -19,11 +19,12 @@ architecture framediff_arch of framediff is
 begin
   theta <= "00000110"; --theta = 6
 
-  process
+  process(clk)
   begin
-    wait for 2 ns;
-    addr0inMAE <= addr0outMAE;
-    addr1inMAE <= addr1outMAE;
+    if rising_edge(clk) then
+        addr0inMAE <= addr0outMAE;
+        addr1inMAE <= addr1outMAE;
+    end if;
   end process;
 
   MAE: entity work.MAE(MAE_arch) port map (clk => clk, rst => rst, addr0_prec => addr0inMAE, addr1_prec => addr1inMAE, addr0 => addr0outMAE, addr1 => addr1outMAE);
