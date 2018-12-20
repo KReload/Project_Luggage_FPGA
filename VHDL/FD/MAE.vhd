@@ -5,8 +5,8 @@ use ieee.numeric_std.all;
 entity MAE is
   port(
     clk, rst : in std_logic;
-    addr0_prec, addr1_prec : in unsigned(17 downto 0);
-    addr0, addr1 : out unsigned(17 downto 0)
+    addr0_prec, addr1_prec : in std_logic_vector(17 downto 0);
+    addr0, addr1 : out std_logic_vector(17 downto 0)
   );
 end entity;
 
@@ -24,8 +24,8 @@ begin
             when 1 => if (addr0_prec = "010100011110101111") then
                         ETAT <= 0;
 		      end if;
-                      addr0 <= addr0_prec + 1;
-                      addr1 <= addr1_prec + 1;
+                      addr0 <= std_logic_vector(unsigned(addr0_prec) + 1);
+                      addr1 <= std_logic_vector(unsigned(addr1_prec) + 1);
 	    when others => ETAT <= 1;
           end case;
       end if;

@@ -33,18 +33,17 @@ int main(void)
   long nrl, nrh, ncl, nch;
   uint8** I0 = LoadPGM_ui8matrix("../hall/hall000031.pgm",&nrl,&nrh,&ncl,&nch);
   uint8** I1 = LoadPGM_ui8matrix("../hall/hall000032.pgm",&nrl,&nrh,&ncl,&nch);
-  FILE *f = fopen("mem.vhd","w");
-  fprintf(f,"library IEEE;use IEEE.std_logic_1164.all;use ieee.numeric_std.all;entity mem is  generic(    N : integer range 2 to 300    );  port(    addr0, addr1 : in unsigned(17 downto 0);    q0,q1 : out std_logic_vector(7 downto 0)  );end entity; architecture mem_arch of mem is type img is array(N*84480 downto 0) of std_logic_vector(7 downto 0); function init_img return img is variable result : img; begin\n");
+  FILE *f = fopen("images.COE","w");
+  fprintf(f,"memory_initialization_radix=2;\nmemory_initialization_vector=\n");
 
   for(int i = 0; i < nrh; i++)
     {
       for(int j = 0; j < nch; j++)
 	{
-	  fprintf(f,"result(%lu) := %s;\n",i*nch+j,decimal_to_binary(I0[i][j]));
+	  fprintf(f,"%s,\n",decimal_to_binary(I0[i][j]));
 	}
     }
 
-  printf("%d*%d = %d", nrh, nch, nrh*nch);
 
 
 
@@ -52,13 +51,10 @@ int main(void)
     {
       for(int j = 0; j < nch; j++)
 	{
-	  fprintf(f,"result(%lu) := %s;\n",83889+i*nch+j,decimal_to_binary(I1[i][j]));
+	  fprintf(f,"%s,\n",decimal_to_binary(I1[i][j]));
 	}
     }
 
-    printf("%d*%d = %d", nrh, nch, nrh*nch);
-
-    fprintf(f,"return result;end init_img;signal image: img:=init_img;begin  q0 <= image(To_integer(addr0));  q1 <= image(To_integer(addr1));end architecture;");
   return 0;
   
 }

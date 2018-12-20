@@ -6,12 +6,17 @@ entity bram is
     port(
         DOut: out std_logic_vector(31 downto 0);
         ADDR: in std_logic_vector(8 downto 0);
-        CLK: in std_logic;
+        CLK, WE: in std_logic;
         DIn0, DIn1: in std_logic_vector(31 downto 0);
     );
 end bram;
 
 architecture bram_arch of bram is
 begin
-    DOut <= 0x400000C
+  process(CLK,WE)
+  begin
+    if rising_edge(CLK) then
+      if WE = '1' then
+        DOut <= 
+                     
 end bram_arch
