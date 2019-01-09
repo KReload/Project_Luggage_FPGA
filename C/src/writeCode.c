@@ -31,9 +31,9 @@ char *decimal_to_binary(int n)
 int main(void)
 {
   long nrl, nrh, ncl, nch;
-  uint8** I0 = LoadPGM_ui8matrix("../hall/hall000031.pgm",&nrl,&nrh,&ncl,&nch);
-  uint8** I1 = LoadPGM_ui8matrix("../hall/hall000032.pgm",&nrl,&nrh,&ncl,&nch);
-  FILE *f = fopen("images.COE","w");
+  uint8** I0 = LoadPGM_ui8matrix("../hall/hall000032.pgm",&nrl,&nrh,&ncl,&nch);
+  //uint8** I1 = LoadPGM_ui8matrix("../hall/hall000032.pgm",&nrl,&nrh,&ncl,&nch);
+  FILE *f = fopen("image1.COE","w");
   fprintf(f,"memory_initialization_radix=2;\nmemory_initialization_vector=\n");
 
   for(int i = 0; i < nrh; i++)
@@ -46,7 +46,7 @@ int main(void)
 
 
 
-
+  /*
     for(int i = 0; i < nrh; i++)
     {
       for(int j = 0; j < nch; j++)
@@ -54,7 +54,7 @@ int main(void)
 	  fprintf(f,"%s,\n",decimal_to_binary(I1[i][j]));
 	}
     }
-
+  */
   return 0;
   
 }
