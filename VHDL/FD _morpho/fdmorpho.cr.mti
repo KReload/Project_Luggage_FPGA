@@ -1,0 +1,124 @@
+{/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture reg_arch of reg
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmp
+-- Compiling architecture cmp_arch of cmp
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram1
+-- Compiling architecture ram1_arch of ram1
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity BancRegistre
+-- Compiling architecture BR_arch of BancRegistre
+-- Loading entity reg
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram2
+-- Compiling architecture ram2_arch of ram2
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MAE
+-- Compiling architecture MAE_arch of MAE
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity framediff
+-- Compiling architecture framediff_arch of framediff
+-- Loading entity MAE
+-- Loading entity ram1
+-- Loading entity ram2
+-- Loading entity sabs
+-- Loading entity cmp
+-- Loading entity BancRegistre
+-- Loading entity ouverture
+-- Loading entity fermeture
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity erosion
+-- Compiling architecture erosion_arch of erosion
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity fermeture
+-- Compiling architecture fermeture_arch of fermeture
+-- Loading entity dilatation
+-- Loading entity BancRegistre
+-- Loading entity erosion
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity dilatation
+-- Compiling architecture dilatation_arch of dilatation
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sabs
+-- Compiling architecture sabs_arch of sabs
+
+} {} {}} {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd} {1 {vcom -work work -2002 -explicit {/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ouverture
+-- Compiling architecture ouverture_arch of ouverture
+-- Loading entity erosion
+-- Loading entity BancRegistre
+-- Loading entity dilatation
+
+} {} {}}

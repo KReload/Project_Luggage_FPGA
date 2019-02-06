@@ -1,0 +1,27 @@
+/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd {0 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity framediff
+-- Compiling architecture framediff_arch of framediff
+-- Loading entity MAE
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd(57): (vcom-1484) Unknown formal identifier "addr0_prec".
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd(57): (vcom-1484) Unknown formal identifier "addr1_prec".
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd(57): (vcom-1484) Unknown formal identifier "addr0".
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd(57): (vcom-1484) Unknown formal identifier "addr1".
+-- Loading entity sabs
+-- Loading entity cmp
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/framediff.vhd(63): VHDL Compiler exiting
+
+} {10.0 14.0 16.0 17.0} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/cmp.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD/cmp.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmp
+-- Compiling architecture cmp_arch of cmp
+
+} {} {}}

@@ -1,0 +1,464 @@
+m255
+K3
+13
+cModel Technology
+d/nfs/home/sasl/eleves/ei-se/3407573
+Ebancregistre
+Z0 w1549472320
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 d/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho
+Z5 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd
+Z6 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd
+l0
+L5
+V6Aa`XT0g;BWioLJjoP]l>2
+Z7 OV;C;10.1d;51
+32
+Z8 !s108 1549474141.792987
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd|
+Z10 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/BancRegistre.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+!s100 U`>?BZ4B7nRh<QBQnb?W:0
+!i10b 1
+Abr_arch
+Z13 DEx4 work 3 reg 0 22 R=iFdFf>45a69c<_zFMCE0
+R1
+R2
+R3
+Z14 DEx4 work 12 bancregistre 0 22 6Aa`XT0g;BWioLJjoP]l>2
+l15
+L13
+V4=<bZe`bTA6^ZFoimcOfF2
+R7
+32
+R8
+R9
+R10
+R11
+R12
+!s100 404zPA9YAMZ>AB8nL43oM2
+!i10b 1
+Ecmp
+Z15 w1544344162
+R1
+R2
+R3
+R4
+Z16 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd
+Z17 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd
+l0
+L5
+VZh2:A4MmWWUidRE7Tg@fN1
+R7
+32
+Z18 !s108 1549474141.057272
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd|
+Z20 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/cmp.vhd|
+R11
+R12
+!s100 [2OG0RmZc;88_kLR8Jk0]3
+!i10b 1
+Acmp_arch
+R1
+R2
+R3
+Z21 DEx4 work 3 cmp 0 22 Zh2:A4MmWWUidRE7Tg@fN1
+l13
+L12
+VmnLBPTAP3X3>81Wi;FE440
+R7
+32
+R18
+R19
+R20
+R11
+R12
+!s100 ?iGkFS_CeV=I[1kMf:jfD1
+!i10b 1
+Edilatation
+Z22 w1549384161
+R1
+R2
+R3
+R4
+Z23 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd
+Z24 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd
+l0
+L5
+VnnEUnEM[6SFn<>KKSAIZZ0
+R7
+32
+Z25 !s108 1549474141.140713
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd|
+Z27 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/dilatation.vhd|
+R11
+R12
+!s100 S[0?=B;TWM<[JVOXM2:871
+!i10b 1
+Adilatation_arch
+R1
+R2
+R3
+Z28 DEx4 work 10 dilatation 0 22 nnEUnEM[6SFn<>KKSAIZZ0
+l13
+L12
+VA6kA1E]QC5c]bcLOF?CKa3
+R7
+32
+R25
+R26
+R27
+R11
+R12
+!s100 gc7Zm6iG`L`OMm[NbeFQL3
+!i10b 1
+Eerosion
+R22
+R1
+R2
+R3
+R4
+Z29 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd
+Z30 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd
+l0
+L5
+VMPaLXW<lz^_LHAPSUa;a[1
+R7
+32
+Z31 !s108 1549474141.219104
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd|
+Z33 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/erosion.vhd|
+R11
+R12
+!s100 H04ldH`PXAYca>ZXOACPj0
+!i10b 1
+Aerosion_arch
+R1
+R2
+R3
+Z34 DEx4 work 7 erosion 0 22 MPaLXW<lz^_LHAPSUa;a[1
+l13
+L12
+V7TI6;_bJ<haYD;ZdKcK^c1
+R7
+32
+R31
+R32
+R33
+R11
+R12
+!s100 ]IMQUZ;U`j@0zBcfHcTQd0
+!i10b 1
+Efermeture
+Z35 w1549474121
+R1
+R2
+R3
+R4
+Z36 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd
+Z37 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd
+l0
+L5
+VLFSkT`7J@n0>`]Gji_dIM1
+R7
+32
+Z38 !s108 1549474141.883460
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd|
+Z40 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/fermeture.vhd|
+R11
+R12
+!s100 8Uo]fU@[SJEV5>C^31VkK0
+!i10b 1
+Afermeture_arch
+R34
+R14
+R28
+R1
+R2
+R3
+Z41 DEx4 work 9 fermeture 0 22 LFSkT`7J@n0>`]Gji_dIM1
+l17
+L13
+V]VDmZ4?oP^9fGhR9QORej0
+R7
+32
+R38
+R39
+R40
+R11
+R12
+!s100 g]1O>=HVBJ=zaik30Oee13
+!i10b 1
+Eframediff
+Z42 w1549474276
+R1
+R2
+R3
+R4
+Z43 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd
+Z44 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd
+l0
+L5
+Vhm0OEmNeDCR^XaKC]6[<I1
+!s100 `NUh=l>HEbS7DIF:D>^VM3
+R7
+32
+!i10b 1
+Z45 !s108 1549474284.853067
+Z46 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd|
+Z47 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/framediff.vhd|
+R11
+R12
+Aframediff_arch
+R41
+Z48 DEx4 work 9 ouverture 0 22 :eUF>QVCTKa=P@`]WdIcI1
+R14
+R21
+Z49 DEx4 work 4 sabs 0 22 nPaJRAD5Km=1EUOj<aa[53
+Z50 DEx4 work 4 ram2 0 22 VdcMC7HVaPD^HWb@5HKKP2
+Z51 DEx4 work 4 ram1 0 22 di9z6241]C69;62z_V@oO1
+Z52 DEx4 work 3 mae 0 22 gfi>3f:mSHYn6RegDTBNT0
+R1
+R2
+R3
+DEx4 work 9 framediff 0 22 hm0OEmNeDCR^XaKC]6[<I1
+l21
+L12
+VMKZV3D[6WV3gdG0@i<PkO3
+!s100 fT:]_XI7Xi1DMNQZ;h:^g1
+R7
+32
+!i10b 1
+R45
+R46
+R47
+R11
+R12
+Emae
+Z53 w1549464020
+R1
+R2
+R3
+R4
+Z54 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd
+Z55 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd
+l0
+L5
+Vgfi>3f:mSHYn6RegDTBNT0
+R7
+32
+Z56 !s108 1549474141.387583
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd|
+Z58 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/MAE.vhd|
+R11
+R12
+!s100 ;OiH7MQ2n7UREaU3`m^Y03
+!i10b 1
+Amae_arch
+R1
+R2
+R3
+R52
+l15
+L13
+VH6<c0gYPlZ0;1YY0e_TM?3
+R7
+32
+R56
+R57
+R58
+R11
+R12
+!s100 UIYB7hL5Zk^A5NBU^aA5[0
+!i10b 1
+Eouverture
+Z59 w1549474128
+R1
+R2
+R3
+R4
+Z60 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd
+Z61 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd
+l0
+L5
+V:eUF>QVCTKa=P@`]WdIcI1
+R7
+32
+Z62 !s108 1549474141.978459
+Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd|
+Z64 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ouverture.vhd|
+R11
+R12
+!s100 a]j<>nY:20A<HD6_K`?4Y0
+!i10b 1
+Aouverture_arch
+R28
+R14
+R34
+R1
+R2
+R3
+R48
+l17
+L13
+VNVLUOh]W_3m[3C;UWWFKh1
+R7
+32
+R62
+R63
+R64
+R11
+R12
+!s100 JK3>=gZ7zX`5Am^IB^:[N2
+!i10b 1
+Eram1
+Z65 w1549465190
+R1
+R2
+R3
+R4
+Z66 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd
+Z67 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd
+l0
+L5
+Vdi9z6241]C69;62z_V@oO1
+R7
+32
+Z68 !s108 1549474141.473730
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd|
+Z70 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram1.vhd|
+R11
+R12
+!s100 g8OXf^WUmgGngol^Z1L9`2
+!i10b 1
+Aram1_arch
+R1
+R2
+R3
+R51
+l27
+L12
+Vn7O:^XG`C8mCkXSbKNVkC1
+R7
+32
+R68
+R69
+R70
+R11
+R12
+!s100 XLaRgFil>DE3IRg2n<biJ2
+!i10b 1
+Eram2
+Z71 w1549465188
+R1
+R2
+R3
+R4
+Z72 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd
+Z73 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd
+l0
+L5
+VVdcMC7HVaPD^HWb@5HKKP2
+R7
+32
+Z74 !s108 1549474141.553924
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd|
+Z76 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/ram2.vhd|
+R11
+R12
+!s100 NZb5a5[ITI=o@<di9X7581
+!i10b 1
+Aram2_arch
+R1
+R2
+R3
+R50
+l27
+L12
+VmJEn`KRgMR]^ZDE`k>[f52
+R7
+32
+R74
+R75
+R76
+R11
+R12
+!s100 niYC7d>2Gzm67=M:J9LXm3
+!i10b 1
+Ereg
+R15
+R1
+R2
+R3
+R4
+Z77 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd
+Z78 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd
+l0
+L5
+VR=iFdFf>45a69c<_zFMCE0
+R7
+32
+Z79 !s108 1549474141.712355
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd|
+Z81 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/reg.vhd|
+R11
+R12
+!s100 gNgk9CUX;7i_jWXB]PaX:0
+!i10b 1
+Areg_arch
+R1
+R2
+R3
+R13
+l14
+L13
+V6>JfbF914n9OdDGliS21L3
+R7
+32
+R79
+R80
+R81
+R11
+R12
+!s100 KfdHUGFPX2MnDcSINzA1[3
+!i10b 1
+Esabs
+R15
+R1
+R2
+R3
+R4
+Z82 8/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd
+Z83 F/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd
+l0
+L5
+VnPaJRAD5Km=1EUOj<aa[53
+R7
+32
+Z84 !s108 1549474141.633023
+Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|/nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd|
+Z86 !s107 /nfs/home/sasl/eleves/ei-se/3407573/Desktop/FD _morpho/sabs.vhd|
+R11
+R12
+!s100 XX3>R;5822z@el>DFa?>n3
+!i10b 1
+Asabs_arch
+R1
+R2
+R3
+R49
+l14
+L12
+V_1FS7l2_MOJJgBVomZGU>1
+R7
+32
+R84
+R85
+R86
+R11
+R12
+!s100 W0UL@?e4Cg?KQFHSL<91J3
+!i10b 1

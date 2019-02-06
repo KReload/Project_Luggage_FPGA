@@ -1,0 +1,120 @@
+/nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sabs.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sabs.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sabs
+-- Compiling architecture sabs_arch of sabs
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mae.vhd {0 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mae.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+** Warning: (vcom-10) Problem closing lock file "/nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/work/_lock".
+Disk quota exceeded. (errno = 122)
+** Warning: (vcom-10) Problem closing lock file "/nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/work/_lock".
+Disk quota exceeded. (errno = 122)
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/min.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/min.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity min
+-- Compiling architecture min_arch of min
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/max.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/max.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity max
+-- Compiling architecture max_arch of max
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/ram1.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/ram1.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram1
+-- Compiling architecture ram1_arch of ram1
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/ram2.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/ram2.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ram2
+-- Compiling architecture ram2_arch of ram2
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sigmadelta.vhd {0 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sigmadelta.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sigmadelta
+-- Compiling architecture sigmadelta_arch of sigmadelta
+-- Loading entity MAE
+-- Loading entity ram1
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sigmadelta.vhd(59): (vcom-1136) Unknown identifier "addr0outMAE".
+-- Loading entity ram2
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sigmadelta.vhd(60): (vcom-1136) Unknown identifier "addr0outMAE".
+-- Loading entity cmpeq
+-- Loading entity reg
+-- Loading entity sabs
+-- Loading entity mul
+-- Loading entity min
+-- Loading entity max
+-- Loading entity cmp
+** Error: /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/sigmadelta.vhd(75): VHDL Compiler exiting
+
+} {11.0 12.0 13.0 14.0 21.0 22.0} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/reg.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/reg.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity reg
+-- Compiling architecture reg_arch of reg
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mul.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mul.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mul
+-- Compiling architecture mul_arch of mul
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/cmpeq.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/cmpeq.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmpeq
+-- Compiling architecture cmpeq_arch of cmpeq
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mmu.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/mmu.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mmu
+-- Compiling architecture mmu_arch of mmu
+
+} {} {}} /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/cmp.vhd {1 {vcom -work work -2002 -explicit /nfs/home/sasl/eleves/ei-se/3407573/Desktop/SD/cmp.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity cmp
+-- Compiling architecture cmp_arch of cmp
+
+} {} {}}
